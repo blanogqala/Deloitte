@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Email",
+    "description": "Corporate email system"
+  },
+  {
+    "name": "GitHub",
+    "description": "Source code repository and version control"
+  },
+  {
+    "name": "Jira",
+    "description": "Project management and issue tracking"
+  }
+]
+

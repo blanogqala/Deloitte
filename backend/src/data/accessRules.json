@@ -1,0 +1,90 @@
+{
+  "Intern": {
+    "Email": {
+      "default": true,
+      "requiresApproval": false,
+      "accessLevel": "default"
+    },
+    "GitHub": {
+      "readOnly": true,
+      "specificRepo": true,
+      "requiresApproval": true,
+      "accessLevel": "read-only",
+      "note": "Interns can only access specific repositories with read-only permissions"
+    },
+    "Jira": {
+      "view": true,
+      "comment": true,
+      "createEdit": false,
+      "requiresApproval": true,
+      "accessLevel": "comment",
+      "note": "Interns can view and comment on tickets but cannot create or edit"
+    }
+  },
+  "Developer": {
+    "Email": {
+      "default": true,
+      "requiresApproval": false,
+      "accessLevel": "default"
+    },
+    "GitHub": {
+      "readWrite": true,
+      "requiresApproval": false,
+      "accessLevel": "read-write",
+      "note": "Developers have read-write access by default"
+    },
+    "Jira": {
+      "view": true,
+      "comment": true,
+      "createEdit": true,
+      "requiresApproval": false,
+      "accessLevel": "create-edit",
+      "note": "Developers can create and edit tickets"
+    },
+    "adminAccess": {
+      "requiresApproval": true,
+      "note": "Any admin-level access requires approval"
+    }
+  },
+  "Manager": {
+    "Email": {
+      "default": true,
+      "requiresApproval": false,
+      "accessLevel": "default"
+    },
+    "GitHub": {
+      "readWrite": true,
+      "requiresApproval": false,
+      "accessLevel": "read-write"
+    },
+    "Jira": {
+      "admin": true,
+      "requiresApproval": false,
+      "accessLevel": "admin",
+      "note": "Managers have admin access to Jira"
+    },
+    "canApprove": true,
+    "note": "Managers can approve access requests"
+  },
+  "IT Administrator": {
+    "Email": {
+      "default": true,
+      "requiresApproval": false,
+      "accessLevel": "default"
+    },
+    "GitHub": {
+      "admin": true,
+      "requiresApproval": false,
+      "accessLevel": "admin"
+    },
+    "Jira": {
+      "admin": true,
+      "requiresApproval": false,
+      "accessLevel": "admin"
+    },
+    "canApprove": true,
+    "finalApprovalAuthority": true,
+    "note": "IT Administrators have full access and final approval authority"
+  }
+}
+

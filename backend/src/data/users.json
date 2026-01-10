@@ -1,0 +1,30 @@
+[
+  {
+    "id": "intern-001",
+    "name": "Alice",
+    "email": "alice@company.com",
+    "role": "Intern",
+    "department": "Engineering"
+  },
+  {
+    "id": "manager-001",
+    "name": "Bob",
+    "email": "bob@company.com",
+    "role": "Manager",
+    "department": "Project Alpha"
+  },
+  {
+    "id": "manager-002",
+    "name": "Sarah",
+    "email": "sarah@company.com",
+    "role": "Manager",
+    "department": "Project Beta"
+  },
+  {
+    "id": "admin-001",
+    "name": "Michael",
+    "email": "michael@company.com",
+    "role": "IT Administrator",
+    "department": "IT"
+  }
+]

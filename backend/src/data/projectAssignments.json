@@ -1,0 +1,7 @@
+{
+  "intern-001": ["project-2"],
+  "manager-001": ["project-1"],
+  "manager-002": ["project-2"],
+  "admin-001": ["project-1", "project-2"]
+}
+

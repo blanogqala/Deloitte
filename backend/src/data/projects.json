@@ -1,0 +1,13 @@
+[
+  {
+    "id": "project-1",
+    "name": "Project Alpha",
+    "managerId": "manager-001"
+  },
+  {
+    "id": "project-2",
+    "name": "Project Beta",
+    "managerId": "manager-002"
+  }
+]
+
